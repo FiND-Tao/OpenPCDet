@@ -17,7 +17,8 @@ from .custom.custom_dataset import CustomDataset
 
 __all__ = {
     'DatasetTemplate': DatasetTemplate,
-    'KittiDataset': KittiDataset,
+    'KittiDataset': KittiDataset,   
+    'MyDataset': MyDataset,
     'NuScenesDataset': NuScenesDataset,
     'WaymoDataset': WaymoDataset,
     'PandasetDataset': PandasetDataset,
